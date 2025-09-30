@@ -1,4 +1,4 @@
-# Extended Python interpreter for the assembly language in sample.dat.txt
+# Extended Python interpreter for the assembly language in sample.asm
 
 # Define opcodes
 opcodes = {
@@ -16,7 +16,7 @@ opcodes = {
 }
 
 # Read the assembly source file
-with open("sample.dat", "r") as f:
+with open("sample.asm", "r") as f:
     lines = f.readlines()
 
 # First pass: build symbol table and intermediate instructions
@@ -122,3 +122,4 @@ with open("asm_output.txt", "w") as f:
     for val in output_values:
 
         f.write(str(val) + "\n")
+
