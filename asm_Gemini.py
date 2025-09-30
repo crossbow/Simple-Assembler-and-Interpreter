@@ -128,7 +128,7 @@ if __name__ == "__main__":
         print("Usage: python asm.py <program_file.dat>")
         sys.exit(1)
 
-    # Per questo esempio, usiamo il tuo file `sample.dat`
+    # Per questo esempio, usiamo il tuo file `sample.asm`
     program_file = sys.argv[1]
 
     # Esegui l'assembler e l'interprete
@@ -137,4 +137,5 @@ if __name__ == "__main__":
     
     # Input simulato
     input_values = [5, 7, 0]
+
     vm.run(input_values)
