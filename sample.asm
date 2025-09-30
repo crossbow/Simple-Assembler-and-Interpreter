@@ -13,4 +13,5 @@ done ld    sum     # print sum
      halt
 
 zero const  0
+
 sum  const
