@@ -52,10 +52,10 @@ To assemble and run a program, use the following command:
 awk -f asm.awk <program-file> <data-files ...>
 ```
 
-For example, to run the `sample.dat` program:
+For example, to run the `sample.asm` program:
 
 ```sh
-awk -f asm.awk sample.dat
+awk -f asm.awk sample.asm
 ```
 
 ### Python 3 Version
@@ -68,10 +68,10 @@ To run an assembly program:
 python3 asm.py <program-file>
 ```
 
-For example, with `sample.dat`:
+For example, with `sample.asm`:
 
 ```sh
-python3 asm.py sample.dat
+python3 asm.py sample.asm
 ```
 
 The Python script also simulates input, so you can easily test programs without manual entry.
