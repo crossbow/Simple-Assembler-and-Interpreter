@@ -1,5 +1,4 @@
 # Extended Python interpreter for the assembly language in sample.dat.txt
-# GENERATO da COPILOT!!!
 
 # Define opcodes
 opcodes = {
@@ -121,4 +120,5 @@ while pc >= 0:
 # Save output to file
 with open("asm_output.txt", "w") as f:
     for val in output_values:
+
         f.write(str(val) + "\n")
