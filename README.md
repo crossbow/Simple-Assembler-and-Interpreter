@@ -69,18 +69,18 @@ and pass each value on CLI. Press 0 to terminate. This example add 5 to 7 and pr
 
 ### Python 3 Version
 
-The Python script `asm.py` provides the same functionality.
+The Python script `asm_Gemini.py` provides the same functionality.
 
 To run an assembly program:
 
 ```sh
-python3 asm.py <program-file>
+python3 asm_Gemini.py <program-file>
 ```
 
 For example, with `sample.asm`:
 
 ```sh
-python3 asm.py sample.asm
+python3 asm_Gemini.py sample.asm
 ```
 
 The Python script also simulates input, so you can easily test programs without manual entry.
