@@ -58,6 +58,15 @@ For example, to run the `sample.asm` program:
 awk -f asm.awk sample.asm
 ```
 
+and pass each value on CLI. Press 0 to terminate. This example add 5 to 7 and print 12 as a result.
+
+```sh
+5
+7
+0
+12
+```
+
 ### Python 3 Version
 
 The Python script `asm.py` provides the same functionality.
